@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.rettangolo {
+    height: 200px;
+    width: 100%;
+    background-color: blue;
+}
+
+@media (max-width:479px) {
+    .rettangolo {
+        background-color: green;
+    }
+}
+
+@media (min-width:1440px) {
+    .rettangolo {
+        background-color: pink;
+    }
+}

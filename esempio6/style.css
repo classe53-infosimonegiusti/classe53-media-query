@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.blu {
+    height: 100px;
+    float: left;
+    width: 100%;
+    background-color: blue;
+}
+
+.verde {
+    display: none;
+    height: 100px;
+    float: left;
+    width: 70%;
+    background-color: green;
+
+}
+
+.white {
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin: 5px;
+    background-color: white;
+
+}
+
+@media (min-width: 581px) {
+
+    .blu {
+        width:30%;
+    }
+    .verde {
+        display: block;
+    }
+
+}

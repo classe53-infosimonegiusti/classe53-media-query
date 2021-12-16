@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    margin: 50px 0px 0px 50px;
+}
+
+@media (min-width: 780px) {
+
+    li {
+        display: inline-block;
+        padding: 5px;
+        background: blue;
+        color: white;
+    }
+
+}

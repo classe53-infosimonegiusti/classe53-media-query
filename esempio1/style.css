@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.quadrato {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 479px) {
+    .quadrato {
+        float: left;
+        background-color: pink;
+        margin-right: 20px;
+    }
+}
+
+/*
+.quadrato {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    margin-right: 20px;
+}
+
+@media (max-width: 478px) {
+    .quadrato {
+        float: none;
+        background-color: blue;
+        margin-bottom: 20px;
+    }
+}
+*/

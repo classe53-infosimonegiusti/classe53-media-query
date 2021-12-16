@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.figura {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+@media (max-width: 479px) {
+    .figura {
+        border-radius: 50%;
+    }
+}
